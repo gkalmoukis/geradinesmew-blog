@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Geradinesmew`,
+    siteTitleAlt: `Geradinesmew | Blog`,
+    siteHeadline: `Geradinesmew | Blog`,
+    siteUrl: `https://geradinesmew.gkalmoukis.com`,
+    siteDescription: `γατα ειμαι παρατα με`,
+    siteLanguage: `el`,
+    siteImage: `.static/banner.jpg`,
+    author: `@gkalmoukis`
   },
   plugins: [
     {
